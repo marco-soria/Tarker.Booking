@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tarker.Booking.Domain.Entities.Booking
+﻿namespace Tarker.Booking.Domain.Entities.Booking
 {
     public class BookingEntity
     {
@@ -16,6 +10,6 @@ namespace Tarker.Booking.Domain.Entities.Booking
 
         public int CustomerId { get; set; }
         public int UserId { get; set; }
-        
+
     }
 }
